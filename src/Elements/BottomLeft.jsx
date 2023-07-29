@@ -8,8 +8,10 @@ const BottomLeft = () => {
         <span className="text-4xl mr-3 font-bold">$29</span>{" "}
         <span className="opacity-50">per month</span>
       </p>
-      <p className="opacity-60 mb-5 ">Full access for less than $1 a day</p>
-      <button className="w-full bg-bright-yellow rounded-lg py-[10px] shadow-xl">
+      <p className="opacity-80 mb-5 mobile:text-sm :">
+        Full access for less than $1 a day
+      </p>
+      <button className="w-full bg-bright-yellow rounded-lg py-[10px] shadow-lg">
         Sign Up
       </button>
     </div>
