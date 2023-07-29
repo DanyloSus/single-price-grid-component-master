@@ -6,6 +6,8 @@
   font-family: "Karla", sans-serif;
 }
 
-main > div {
-  padding: 44px 40px 40px;
+@layer components {
+  main > div {
+    @apply px-[40px] pt-[44px] pb-[40px] mobile:px-[20px] mobile:py-[30px];
+  }
 }/*# sourceMappingURL=index.css.map */

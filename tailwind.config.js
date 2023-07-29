@@ -11,6 +11,10 @@ export default {
         "light-gray": "hsl(204, 43%, 93%)",
         "grayish-blue": "hsl(218, 22%, 67%)",
       },
+      screens: {
+        mobile: { max: "768px" },
+        mobileT: { max: "1280px" },
+      },
     },
   },
   plugins: [],
