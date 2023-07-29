@@ -2,7 +2,7 @@ import React from "react";
 
 const BottomLeft = () => {
   return (
-    <div className="bg-cyan text-white">
+    <div className="bg-cyan text-white anim left-anim">
       <h1 className="text-lg mb-3">Monthly Subscription</h1>
       <p className="flex items-center mb-1">
         <span className="text-4xl mr-3 font-bold">$29</span>{" "}

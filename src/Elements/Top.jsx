@@ -2,7 +2,7 @@ import React from "react";
 
 const Top = () => {
   return (
-    <div className="bg-white col-span-2">
+    <div className="bg-white col-span-2 anim top-anim">
       <h1 className="text-cyan text-2xl font-bold mb-2 mobile:text-lg">
         Join our community
       </h1>

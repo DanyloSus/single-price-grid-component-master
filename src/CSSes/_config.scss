@@ -13,3 +13,58 @@
     @apply px-[40px] pt-[44px] pb-[40px] mobile:px-[20px] mobile:py-[30px];
   }
 }
+
+.anim {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+.top-anim {
+  animation-name: top-anim;
+}
+
+@keyframes top-anim {
+  0% {
+    position: relative;
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+  }
+}
+.left-anim {
+  animation-name: left-anim;
+}
+
+@keyframes left-anim {
+  0% {
+    position: relative;
+    left: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+.right-anim {
+  animation-name: right-anim;
+}
+
+@keyframes right-anim {
+  0% {
+    position: relative;
+    right: -20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    right: 0px;
+    opacity: 1;
+  }
+}
